@@ -4,5 +4,61 @@ body{
     flex-direction: column;
     align-items: center;
 }
-
-
+.header-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.header{
+    display: flex;
+    padding: 10px 26px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background: var(--yellow-100, #FDF6E4); 
+}
+.logo-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-name h4{
+    color: #802B04;
+    font-family: "Playfair Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.logo-name img{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    aspect-ratio: 1/1;
+}
+.header-buttons{
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 22px;
+}
+.header-buttons a{
+    color: #000;
+    font-family: "Noto Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.banner{
+    display: flex;
+    padding: 10px 26px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background: var(--yellow-100, #d19602);
+}

@@ -86,7 +86,7 @@ body {
     align-items: center;
     gap: 29px;
     align-self: stretch;
-    background: linear-gradient(0deg, rgba(128, 43, 4, 0.65) 0%, rgba(128, 43, 4, 0.65) 100%), url(image/background.png) lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(128, 43, 4, 0.65) 0%, rgba(128, 43, 4, 0.65) 100%), url(image/background1.png) lightgray 50% / cover no-repeat;
 }
 
 .banner-content{

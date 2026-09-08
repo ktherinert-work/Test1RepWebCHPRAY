@@ -134,3 +134,21 @@ body {
     line-height: normal;
     width: 1114px;
 }
+
+.servicios {
+    display: flex;
+    padding: 60px 26px;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    align-self: stretch;
+}
+.servicios h1 {
+    color: var(--text-primary, #1F1E1C);
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}

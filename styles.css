@@ -144,7 +144,7 @@ body {
     align-self: stretch;
     background: var(--yellow-100, #FDF6E4);
 }
-.servicios h1 {
+.servicios h2 {
     color: var(--text-primary, #1F1E1C);
     text-align: center;
     font-family: "Noto Sans";
@@ -170,7 +170,7 @@ body {
     gap: 40px;
     align-self: stretch;
 }
-.eventos .desayunos .almuerzos .asados {
+.eventos, .desayunos, .almuerzos, .asados {
     display: flex;
     padding: 22px;
     flex-direction: column;
@@ -191,7 +191,7 @@ body {
     border-radius: 10px;
     background: var(--neutral-200, #EBE9E3);
 }
-.eventos .desayunos .almuerzos .asados h3{
+.eventos h3, .desayunos h3, .almuerzos h3, .asados h3{
     color: var(--neutral-800, #383733);
     font-family: Inter;
     font-size: 24px;
@@ -199,7 +199,7 @@ body {
     font-weight: 600;
     line-height: normal;
 }
-.eventos .desayunos .almuerzos .asados p{
+.eventos p, .desayunos p, .almuerzos p, .asados p{
     color: var(--neutral-700, #52504B);
     font-family: Inter;
     font-size: 20px;

@@ -207,3 +207,8 @@ body {
     font-weight: 400;
     line-height: normal;
 }
+.eventos i, .desayunos i, .almuerzos i, .asados i{
+    flex-shrink: 0;
+    stroke-width: 2px;
+    stroke: var(--neutral-800, #383733);
+}

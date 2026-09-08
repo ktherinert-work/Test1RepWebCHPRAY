@@ -142,6 +142,7 @@ body {
     align-items: center;
     gap: 18px;
     align-self: stretch;
+    background: var(--yellow-100, #FDF6E4);
 }
 .servicios h1 {
     color: var(--text-primary, #1F1E1C);
@@ -150,5 +151,59 @@ body {
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
+    line-height: normal;
+}
+.servicios p {
+    color: var(--neutral-800, #383733);
+    font-family: "Noto Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    align-self: stretch;
+}
+.servicios-cards{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+}
+.eventos .desayunos .almuerzos .asados {
+    display: flex;
+    padding: 22px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    border: 1px solid var(--neutral-500, #9E9B95);
+    background: #FFF;
+}
+.icon-cards{
+    display: flex;
+    width: 60px;
+    height: 51px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: var(--neutral-200, #EBE9E3);
+}
+.eventos .desayunos .almuerzos .asados h3{
+    color: var(--neutral-800, #383733);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.eventos .desayunos .almuerzos .asados p{
+    color: var(--neutral-700, #52504B);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
     line-height: normal;
 }

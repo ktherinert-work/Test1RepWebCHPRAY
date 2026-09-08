@@ -4,20 +4,24 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>C.H. PRAY Servicio de Alimentación Institucional y Catering Corporativo en Colombia</title>
+        <!-- Logo en la pestaña -->
+        <link rel="icon" type="images/png" href="images/logo.png">
         <!-- Conexión remota gratuita a Google Fonts para Noto Sans -->
+        <!-- Enlace único en el <head> con Inter, Noto Sans y Playfair Display -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
         <!-- Mi hoja de estilos -->
         <link rel="stylesheet" href="styles.css">
     </head>
+
     <body class="main-container">
 
         <div class="header-banner"> <!-- Primer Contenedor -->
             <header class="header">
                 <div class="logo-name">
                     <img src="images/logo.png" alt="C.H. PRAY Logo">
-                    <h4>C.H. PRAY</h4>
+                    <p>C.H. PRAY</p>
                 </div>
                 <ul class="header-buttons">
                     <li><a href="#">Servicios</a></li>
@@ -38,7 +42,45 @@
         </div>
 
         <div class="servicios"> <!-- Segundo Contenedor -->
-            <h1> Nuestros Servicios</h1>
+            <h2> Nuestros Servicios</h2>
+            <p>Ofrecemos menús equilibrados y diseñados por profesionales en nutrición para empresas, colegios e instituciones. Garantizamos estricta seguridad alimentaria y una experiencia gastronómica premium adaptada a las necesidades de tu organización.</p>
+            <div class="servicios-cards">
+                <!-- Cargar la librería de Lucide Icons desde CDN -->
+                <script src="https://unpkg.com/lucide@latest"></script>
+                <script>
+                // Inicializa los iconos Lucide en la página
+                lucide.createIcons();
+                </script>
+
+
+                <div class="eventos">
+                    <div class="icon-cards"><i data-lucide="users-round"></i></div>
+                    <h3>Eventos Corporativos</h3>
+                    <p>Soluciones de alimentación estratégica para reuniones, capacitaciones y eventos empresariales de cualquier escala en Bogotá y alrededores.</p>
+                </div>
+                <div class="desayunos">
+                    <div class="icon-cards"><i data-lucide="sun-medium"></i></div>
+                    <h3>Desayunos y Breaks</h3>
+                    <p>Menús equilibrados con bebidas calientes, opciones de panadería gourmet y frutas para iniciar la jornada laboral con la mejor energía.</p>
+                </div>
+                <div class="almuerzos">
+                    <div class="icon-cards"><i data-lucide="utensils"></i></div>
+                    <h3>Almuerzos Ejecutivos</h3>
+                    <p>Platos fuertes y entradas con rigor nutricional y combinaciones de alta cocina diseñados para impresionar a clientes y directivos.</p>
+                </div>
+                <div class="asados">
+                    <div class="icon-cards"><i data-lucide="flame"></i></div>
+                    <h3>Asados & Lunadas</h3>
+                    <p>Experiencias gastronómicas al aire libre, ideales para integraciones de equipo, celebraciones de fin de año y jornadas especiales.</p>
+                </div>
+
+
+
+
+               
+                </div>
+            </div>
         </div>
+
     </body>
 </html>  
